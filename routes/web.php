@@ -20,3 +20,11 @@ Route::get('/', function () {
 Route::get('/hello', function () {
     return view('hello');
 });
+
+Route::get('/retorna-texto', function () {
+    return 'Solo retorna texto';
+});
+
+Route::get('/todoes', function () {
+    return  view('todoes.index');
+});
